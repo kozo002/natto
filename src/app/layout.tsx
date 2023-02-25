@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body className="m-0 p-0">
+      <body className="m-0 py-4">
         {children}
       </body>
     </html>

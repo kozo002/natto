@@ -1,5 +1,11 @@
+import { DiaryForm } from 'components/organisms/DiaryForm'
+
 export default function HomePage() {
   return (
-    <div>test</div>
+    <div>
+      <div className="mx-auto max-w-[500px]">
+        <DiaryForm />
+      </div>
+    </div>
   )
 }
